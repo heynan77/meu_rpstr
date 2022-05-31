@@ -75,7 +75,6 @@ while opcao_desejada != 0:
             index_desejado = cod_pessoa_escolhida - 1000
             funcionarios.pop(index_desejado)
             print("Funcionário excluído com sucesso")
-            print(funcionarios)
         else:
           print("Por favor, escolha uma opção válida")
 
@@ -86,7 +85,6 @@ while opcao_desejada != 0:
             index_desejado = cod_pessoa_escolhida - 1000
             funcionarios[index_desejado]["salario"] += quantia_p_acrescentar
             print("Salário adicionado com sucesso")
-            print(funcionarios)
         else:
           print("Por favor, escolha uma opção válida")
 
